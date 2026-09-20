@@ -1,58 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ArionZ Web Services</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArionZ — Premium Web Development Agency</title>
+  <meta name="description" content="ArionZ builds fast, modern, conversion-focused websites for startups and businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">ARION<span class="gold">Z</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-<nav>
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <div class="badge reveal">
+        <span class="dot"></span> Available for new projects
+      </div>
+      <h1 class="reveal">
+        We build websites that<br />
+        <span class="gradient-text">grow your business.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        ArionZ is a modern web development studio crafting fast, beautiful,
+        and conversion-focused websites for startups and businesses.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#contact" class="btn btn-primary">Start Your Project →</a>
+        <a href="#work" class="btn btn-ghost">View Our Work</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div><strong>50+</strong><span>Projects</span></div>
+        <div><strong>100%</strong><span>Satisfaction</span></div>
+        <div><strong>24/7</strong><span>Support</span></div>
+      </div>
+    </div>
+  </section>
 
-<div class="logo-container">
-<img src="logo.png" class="logo eagle">
-</div>
+  <!-- ===== TRUSTED BY ===== -->
+  <section class="trusted">
+    <div class="container">
+      <p class="trusted-label">Trusted by growing businesses</p>
+      <div class="trusted-logos">
+        <span>StartupX</span>
+        <span>NovaTech</span>
+        <span>BlueLeaf</span>
+        <span>ZenithCo</span>
+        <span>PixelForge</span>
+      </div>
+    </div>
+  </section>
 
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="portfolio.html">Portfolio</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Services</span>
+        <h2>Everything you need to <span class="gradient-text">go online.</span></h2>
+        <p>From design to deployment — we handle it all, end to end.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="card reveal">
+          <div class="card-icon">🌐</div>
+          <h3>Website Development</h3>
+          <p>Custom, fast, responsive websites built with modern tech.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🛒</div>
+          <h3>E-commerce</h3>
+          <p>Online stores that convert visitors into loyal customers.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">💼</div>
+          <h3>Business Websites</h3>
+          <p>Professional sites that build trust and generate leads.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🛠️</div>
+          <h3>Maintenance</h3>
+          <p>Ongoing support, updates, and performance monitoring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</nav>
+  <!-- ===== WORK ===== -->
+  <section class="section section-alt" id="work">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Portfolio</span>
+        <h2>Recent <span class="gradient-text">work.</span></h2>
+        <p>Real projects, real results.</p>
+      </div>
+      <div class="grid grid-2">
+        <a href="#" class="work-card reveal">
+          <div class="work-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e);">
+            <span>Business Website</span>
+          </div>
+          <div class="work-info">
+            <h3>NovaTech Solutions</h3>
+            <p>Corporate website · +180% leads in 3 months</p>
+          </div>
+        </a>
+        <a href="#" class="work-card reveal">
+          <div class="work-thumb" style="background:linear-gradient(135deg,#2d1b3d,#1a1a2e);">
+            <span>E-commerce Store</span>
+          </div>
+          <div class="work-info">
+            <h3>BlueLeaf Store</h3>
+            <p>Online store · 3x conversion rate</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-</header>
+  <!-- ===== PROCESS ===== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Process</span>
+        <h2>How we <span class="gradient-text">work.</span></h2>
+      </div>
+      <div class="grid grid-4 process-grid">
+        <div class="process-step reveal"><span class="step-num">01</span><h3>Discovery</h3><p>We understand your goals.</p></div>
+        <div class="process-step reveal"><span class="step-num">02</span><h3>Design</h3><p>Wireframes & UI mockups.</p></div>
+        <div class="process-step reveal"><span class="step-num">03</span><h3>Develop</h3><p>Clean, fast, scalable code.</p></div>
+        <div class="process-step reveal"><span class="step-num">04</span><h3>Launch</h3><p>Deploy, test, and support.</p></div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <span class="eyebrow">About</span>
+        <h2>Built by developers,<br /><span class="gradient-text">for businesses.</span></h2>
+        <p>
+          ArionZ was founded by <strong>Jigar S. Darji</strong> with one mission —
+          to make premium web design accessible to every business, no matter the size.
+          We combine clean design, modern code, and a startup mindset.
+        </p>
+        <a href="#contact" class="btn btn-primary">Work With Us</a>
+      </div>
+      <div class="about-card reveal">
+        <h3>Why ArionZ?</h3>
+        <ul>
+          <li>✓ Fast turnaround</li>
+          <li>✓ Transparent pricing</li>
+          <li>✓ Modern, custom design</li>
+          <li>✓ Free post-launch support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== CTA ===== -->
+  <section class="cta-section" id="contact">
+    <div class="container cta-inner reveal">
+      <h2>Ready to build something <span class="gradient-text">great?</span></h2>
+      <p>Let's turn your idea into a website that works.</p>
+      <div class="hero-cta">
+        <a href="https://wa.me/919904116424" class="btn btn-primary">Chat on WhatsApp</a>
+        <a href="mailto:arionzweb@gmail.com" class="btn btn-ghost">arionzweb@gmail.com</a>
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="logo">
+          <span class="logo-mark">A</span>
+          <span class="logo-text">ARION<span class="gold">Z</span></span>
+        </div>
+        <p class="footer-tag">Premium web development studio.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 ArionZ Web Services. All rights reserved.</p>
+      <p>Made in Gujarat, India 🇮🇳</p>
+    </div>
+  </footer>
 
-<h1>Professional Websites for Growing Businesses</h1>
-
-<p>
-Modern, responsive and powerful websites for your business.
-</p>
-
-<a href="https://wa.me/919904116424" class="hero-btn">
-Start Your Website
-</a>
-
-</section>
-
-
-
-<footer>
-
-<p>© 2026 ArionZ. All Rights Reserved.</p>
-
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
